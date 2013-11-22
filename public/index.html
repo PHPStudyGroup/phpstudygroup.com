@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+
+        <title>PHP Study Group</title>
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="resources/css/offcanvas.css" rel="stylesheet">
+        <link href="resources/css/main.css" rel="stylesheet">
+
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <header class="header ng-scope" ng-controller="NavigationCtrl">
+            <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Main</a>
+                            <a class="navbar-brand" href="app/contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="col-xs-1 col-sm-2 sidebar-offcanvas" id="sidebar">
+                    <h3 class="text-muted">Welcome</h3>
+                    <p> 
+                    to the PHP Study Group. We're based out of Denver and
+                    also run a local PHP User group meetup. This study group is open
+                    to all who are psyched about learning PHP and other 
+                    web technologies.
+                    </p>
+                </div>
+                <div class="col-xs-3 col-sm-9">
+                    <div class="jumbotron">
+                        <h1>PHP Study Group</h1>
+                        <p>
+                        Next meeting on 11/27/13 <br/>
+                        8:30 Mountain Time
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
