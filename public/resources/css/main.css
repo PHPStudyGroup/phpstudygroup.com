@@ -1,1 +1,22 @@
+.youtube {
 
+    margin: 0 auto 10px auto;
+}
+
+p.nextmeeting {
+    text-align: left;
+    padding: 10px 50px 0px 10px;
+    float: left;
+
+}
+
+.googlepluss {
+    clear: both;
+}
+
+.social {
+    height:75px;
+    padding-top:10px;
+    margin:10px;
+    float:left;
+}
